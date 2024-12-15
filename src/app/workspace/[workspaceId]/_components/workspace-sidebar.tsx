@@ -42,7 +42,7 @@ export const WorkspaceSidebar = () => {
   return (
     <div className="h-full flex flex-col bg-[#5E2C5F]">
       <WorkspaceHeader workspace={workspace} isAdmin={member.role === "admin"} />
-      <div className="flex flex-col px-2 mt-3">
+      {/* <div className="flex flex-col px-2 mt-3">
         <SidebarItem 
           label="Threads"
           icon={MessageSquareText}
@@ -53,7 +53,7 @@ export const WorkspaceSidebar = () => {
           icon={SendHorizonal}
           id={"drafts"}
         />
-      </div>
+      </div> */}
       <WorkspaceSection
           label={"Channels"}
           hint={"New Channel"}
