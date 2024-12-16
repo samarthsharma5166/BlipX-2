@@ -9,8 +9,8 @@ export const Sidebar = () => {
       <WorkspaceSwitcher />
       <SidebarButton icon={Home} label="Home" isActive/>
       <SidebarButton icon={MessageSquare} label="DMs" />
-      <SidebarButton icon={Bell} label="Activity" />
-      <SidebarButton icon={MoreHorizontal} label="More" />
+      {/* <SidebarButton icon={Bell} label="Activity" /> */}
+      {/* <SidebarButton icon={MoreHorizontal} label="More" /> */}
       <div className="flex flex-col gap-y-1 mt-auto items-center jusitfy-center ">
         <UserButton />
       </div>
